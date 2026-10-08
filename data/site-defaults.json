@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T14:31:35.436Z",
+  "generatedAt": "2026-10-08T19:22:24.756Z",
   "settings": {
     "siteTitle": "Lifecycle Offsite 2027",
     "heroTitle": "Three days, one island, zero open tabs",
@@ -25,7 +25,7 @@
     {
       "title": "Shave Ice A/B Test",
       "slug": "shave-ice-ab-test",
-      "stopSlug": "shave-ice-ab-test",
+      "stopSlug": "shave-ice-a-b-test",
       "blurb": "Rigorous methodology, flavorful results.",
       "rank": 3,
       "pinned": true

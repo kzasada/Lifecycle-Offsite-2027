@@ -1,7 +1,9 @@
 import Link from "next/link";
 import StopBrowser from "@/components/StopBrowser";
+import GhostTabs from "@/components/GhostTabs";
+import { HawaiianShirt } from "@/components/TropicalArt";
 import { getSiteContent } from "@/lib/content";
-import { getStop, stops } from "@/lib/stops";
+import { days, getStop, stops } from "@/lib/stops";
 import styles from "./page.module.css";
 
 export default async function HomePage() {
@@ -12,6 +14,7 @@ export default async function HomePage() {
     <main>
       <section className={styles.hero}>
         <div className={styles.heroInner}>
+          <GhostTabs />
           <h1 className={styles.title}>{settings.heroTitle}</h1>
           <p className={styles.subtitle}>{settings.heroSubtitle}</p>
         </div>
@@ -37,13 +40,16 @@ export default async function HomePage() {
         <h2 id="itinerary" className={styles.h2}>
           The itinerary
         </h2>
-        <StopBrowser stops={stops} />
+        <StopBrowser stops={stops} days={days} />
       </section>
 
       <section className={styles.section} aria-labelledby="packing">
-        <h2 id="packing" className={styles.h2}>
-          Packing list
-        </h2>
+        <div className={styles.packingHead}>
+          <h2 id="packing" className={styles.h2}>
+            Packing list
+          </h2>
+          <HawaiianShirt className={styles.shirt} />
+        </div>
         <ul className={styles.packing}>
           {packing.map((p) => (
             <li key={p.slug}>

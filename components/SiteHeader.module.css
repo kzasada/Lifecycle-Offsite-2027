@@ -49,6 +49,8 @@
 }
 
 .nav a:hover {
-  text-decoration: underline wavy var(--color-mango-400);
-  text-underline-offset: 0.3em;
+  text-decoration: underline;
+  text-decoration-color: var(--color-mango-400);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.35em;
 }

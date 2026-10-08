@@ -46,7 +46,7 @@ const stops = rows.map(([day, time, name, description, themes], i) => ({
 const featured = [
   { title: "Lei-Making Workshop", slug: "lei-making-workshop", stopSlug: "lei-making-workshop", blurb: "The flagship activity. Bring patience and a tolerance for tangling.", rank: 1, pinned: true },
   { title: "Publish Day at the Beach", slug: "publish-day-at-the-beach", stopSlug: "publish-day-at-the-beach", blurb: "The only launch with a built-in rollback.", rank: 2, pinned: true },
-  { title: "Shave Ice A/B Test", slug: "shave-ice-ab-test", stopSlug: "shave-ice-ab-test", blurb: "Rigorous methodology, flavorful results.", rank: 3, pinned: true },
+  { title: "Shave Ice A/B Test", slug: "shave-ice-ab-test", stopSlug: "shave-ice-a-b-test", blurb: "Rigorous methodology, flavorful results.", rank: 3, pinned: true },
   { title: "Souvenir Shop Win-Back Campaign", slug: "souvenir-shop-win-back-campaign", stopSlug: "souvenir-shop-win-back-campaign", blurb: "A second chance, with a magnet.", rank: 4, pinned: true },
 ];
 
