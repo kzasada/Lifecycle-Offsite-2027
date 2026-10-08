@@ -20,6 +20,7 @@ An original brand for a fictional offsite. The idea: a deadpan corporate memo, p
 | Mango 100 | `#FFE7A3` | Tag backgrounds |
 | Palm 700 | `#137A52` | Featured card variant (white text) |
 | Coral 500 | `#FF6F4F` | Heading underlines, accents (not for text) |
+| Aloha red | `#D7263D` | The Hawaiian shirt illustration only |
 | Hibiscus 600 | `#D81E5B` | Primary action (white text) |
 | Hibiscus 700 | `#B3124A` | Action hover, accent text |
 | Hibiscus 100 | `#FFD9E4` | Soft accent background |
@@ -62,4 +63,8 @@ Dry, specific, affectionate. Funny through understatement, never through volume.
 - **Button:** hibiscus 600 fill, white text, pill radius.
 - **Search input:** white, sand border, 16px radius, always paired with a visible label.
 - **FAQ item:** native disclosure (`details`), card styling, muted answer text.
+- **Day tabs:** browser-style tabs for Day 1 to 3 (no "All days" tab). Rounded top corners, a colored favicon dot per day (mango, coral, palm), and a sunset stripe on the active tab, which joins the panel below. Searching looks across all days.
+- **Section heading:** teal 900 Fredoka with a short solid sunset bar underneath. No wavy or dotted underlines: they read as spellcheck warnings.
+- **Hero ghost tabs:** a decorative browser tab strip above the title, with three struck-through tabs and one live "Offsite 2027" tab, for the "zero open tabs" joke. Decorative only, hidden from screen readers.
+- **Hawaiian shirt:** a small red shirt with cream hibiscus flowers beside the packing list heading. Use it once as a light touch, not as a repeated pattern.
 - **Empty and not-found states:** plain sentence, one clear way back.
