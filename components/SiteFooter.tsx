@@ -3,7 +3,7 @@ import styles from "./SiteFooter.module.css";
 export default function SiteFooter() {
   return (
     <footer className={styles.footer}>
-      <p>A fictional itinerary. All names, figures, and pineapples are made up.</p>
+      <p>All names, figures, and references to actual roadmap changes are purely coincidental.</p>
     </footer>
   );
 }
