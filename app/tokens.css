@@ -1,0 +1,77 @@
+/* Single source of styling truth. Mirrors docs/brand/design-tokens.json. */
+:root {
+  /* color: palette */
+  --color-teal-900: #0b3c49;
+  --color-teal-700: #14606f;
+  --color-teal-100: #d7ecee;
+  --color-cream-50: #fbf5e9;
+  --color-sand-200: #f1e6cf;
+  --color-sand-400: #d9cdb3;
+  --color-white: #ffffff;
+  --color-ink-900: #17262b;
+  --color-ink-600: #4f6168;
+  --color-hibiscus-600: #c0304b;
+  --color-hibiscus-700: #9e243b;
+  --color-hibiscus-100: #f8dde2;
+
+  /* color: roles */
+  --bg-page: var(--color-cream-50);
+  --bg-alt: var(--color-sand-200);
+  --bg-card: var(--color-white);
+  --bg-inverse: var(--color-teal-900);
+  --text-primary: var(--color-ink-900);
+  --text-muted: var(--color-ink-600);
+  --text-inverse: var(--color-cream-50);
+  --text-accent: var(--color-hibiscus-700);
+  --border-subtle: var(--color-sand-400);
+  --action-bg: var(--color-hibiscus-600);
+  --action-bg-hover: var(--color-hibiscus-700);
+  --action-text: var(--color-white);
+  --link: var(--color-teal-700);
+  --tag-bg: var(--color-teal-100);
+  --tag-text: var(--color-teal-900);
+  --focus-ring: var(--color-teal-700);
+
+  /* typography (families are set in app/fonts.ts) */
+  --font-heading: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.75rem;
+  --leading-tight: 1.15;
+  --leading-body: 1.6;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* spacing (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  /* radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* shadow */
+  --shadow-color: rgb(11 60 73 / 14%);
+  --shadow-sm: 0 1px 2px var(--shadow-color);
+  --shadow-md: 0 6px 18px var(--shadow-color);
+
+  /* layout */
+  --content-width: 68rem;
+  --reading-width: 42rem;
+}

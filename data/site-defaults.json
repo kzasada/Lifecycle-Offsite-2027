@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-10-08T13:54:12.763Z",
+  "settings": {
+    "siteTitle": "Lifecycle Offsite 2027",
+    "heroTitle": "Three days, one island, zero open tabs",
+    "heroSubtitle": "A team itinerary prepared with the rigor of a quarterly review and the sun protection of a first draft."
+  },
+  "featured": [
+    {
+      "title": "Lei-Making Workshop",
+      "slug": "lei-making-workshop",
+      "stopSlug": "lei-making-workshop",
+      "blurb": "The flagship activity. Bring patience and a tolerance for tangling.",
+      "rank": 1,
+      "pinned": true
+    },
+    {
+      "title": "Publish Day at the Beach",
+      "slug": "publish-day-at-the-beach",
+      "stopSlug": "publish-day-at-the-beach",
+      "blurb": "The only launch with a built-in rollback.",
+      "rank": 2,
+      "pinned": true
+    },
+    {
+      "title": "Shave Ice A/B Test",
+      "slug": "shave-ice-ab-test",
+      "stopSlug": "shave-ice-ab-test",
+      "blurb": "Rigorous methodology, flavorful results.",
+      "rank": 3,
+      "pinned": true
+    },
+    {
+      "title": "Souvenir Shop Win-Back Campaign",
+      "slug": "souvenir-shop-win-back-campaign",
+      "stopSlug": "souvenir-shop-win-back-campaign",
+      "blurb": "A second chance, with a magnet.",
+      "rank": 4,
+      "pinned": true
+    }
+  ],
+  "faqs": [
+    {
+      "title": "Who owns the sunscreen?",
+      "slug": "who-owns-the-sunscreen",
+      "answer": "Whoever brought it. This makes it a shared service with no roadmap.",
+      "order": 1,
+      "published": true
+    },
+    {
+      "title": "What is the dress code?",
+      "slug": "what-is-the-dress-code",
+      "answer": "Business casual, with an emphasis on casual and a minimum of one flower.",
+      "order": 2,
+      "published": true
+    },
+    {
+      "title": "Will there be Wi-Fi?",
+      "slug": "will-there-be-wifi",
+      "answer": "At the pool, the lobby, and the pond. Coverage elsewhere is described as aspirational.",
+      "order": 3,
+      "published": true
+    },
+    {
+      "title": "Do I need to open my laptop?",
+      "slug": "do-i-need-to-open-my-laptop",
+      "answer": "No. Please bring it anyway, so it can feel included.",
+      "order": 4,
+      "published": true
+    },
+    {
+      "title": "What should my out-of-office say?",
+      "slug": "what-should-my-out-of-office-say",
+      "answer": "\"Back Monday, fragrant.\" Edits are permitted, but fragrance is encouraged.",
+      "order": 5,
+      "published": true
+    }
+  ],
+  "packing": [
+    {
+      "title": "Reef-safe sunscreen",
+      "slug": "reef-safe-sunscreen",
+      "note": "Ownership is addressed in the FAQ.",
+      "quantity": 1,
+      "essential": true
+    },
+    {
+      "title": "Floral shirt",
+      "slug": "floral-shirt",
+      "note": "Hibiscus print preferred. Dignified.",
+      "quantity": 1,
+      "essential": true
+    },
+    {
+      "title": "Walking shoes",
+      "slug": "walking-shoes",
+      "note": "For the waterfall hike.",
+      "quantity": 1,
+      "essential": true
+    },
+    {
+      "title": "Laptop you intend not to open",
+      "slug": "laptop-you-intend-not-to-open",
+      "note": "Optional, and emotionally supportive.",
+      "quantity": 1,
+      "essential": false
+    },
+    {
+      "title": "Printed copy of the forecast",
+      "slug": "printed-copy-of-the-forecast",
+      "note": "Useful for shade.",
+      "quantity": 1,
+      "essential": false
+    }
+  ]
+}
