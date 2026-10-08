@@ -1,30 +1,37 @@
 # Lifecycle Offsite 2027: Brand Guide
 
-An original brand for a fictional offsite. The idea: a deadpan corporate memo, printed on a tropical postcard.
+An original brand for a fictional offsite. The idea: a deadpan corporate memo, printed on a tropical postcard: lagoon blues, sunset warmth, a sun in the corner and wavy edges.
 
 ## Colors
 
 | Token | Hex | Role |
 |---|---|---|
-| Teal 900 | `#0B3C49` | Header, inverse surfaces, headings on light |
-| Teal 700 | `#14606F` | Links, focus ring |
-| Teal 100 | `#D7ECEE` | Tag backgrounds |
-| Cream 50 | `#FBF5E9` | Page background |
-| Sand 200 | `#F1E6CF` | Alternate sections, hero |
-| Sand 400 | `#D9CDB3` | Borders and dividers |
+| Teal 900 | `#034C5A` | Header, footer, inverse surfaces, headings on light |
+| Teal 700 | `#07707F` | Links, focus ring |
+| Teal 500 | `#12B5BF` | Lagoon accent, gradient end |
+| Teal 100 | `#CDF3F1` | Light text on teal |
+| Cream 50 | `#FFF8E7` | Page background |
+| Sand 200 | `#FFE9B8` | Alternate sections |
+| Sand 400 | `#F2CF8A` | Borders and dividers |
 | White | `#FFFFFF` | Cards, inputs |
-| Ink 900 | `#17262B` | Body text |
-| Ink 600 | `#4F6168` | Muted text |
-| Hibiscus 600 | `#C0304B` | Primary action (white text) |
-| Hibiscus 700 | `#9E243B` | Action hover, accent text |
-| Hibiscus 100 | `#F8DDE2` | Soft accent background |
+| Ink 900 | `#10292F` | Body text |
+| Ink 600 | `#3F5A62` | Muted text |
+| Mango 400 | `#FFB627` | Sun, highlights, sunset gradient start (dark text on top) |
+| Mango 100 | `#FFE7A3` | Tag backgrounds |
+| Palm 700 | `#137A52` | Featured card variant (white text) |
+| Coral 500 | `#FF6F4F` | Heading underlines, accents (not for text) |
+| Hibiscus 600 | `#D81E5B` | Primary action (white text) |
+| Hibiscus 700 | `#B3124A` | Action hover, accent text |
+| Hibiscus 100 | `#FFD9E4` | Soft accent background |
 
-Use hibiscus sparingly: one action color per screen.
+**Gradients:** Sunset (mango, coral, hibiscus) for stripes and rules. Lagoon (teal 900, 700, 500) for the hero.
+
+Use hibiscus for actions only: one action color per screen. Mango and coral are for decoration, not body text.
 
 ## Typography
 
-- **Headings:** Fraunces (Google Fonts), weights 400-700.
-- **Body and UI:** Inter (Google Fonts), weights 400-600.
+- **Headings:** Fredoka (Google Fonts), weights 400-700.
+- **Body and UI:** Nunito (Google Fonts), weights 400-700.
 
 | Step | Size | Use |
 |---|---|---|
@@ -34,15 +41,15 @@ Use hibiscus sparingly: one action color per screen.
 | lg | 20px | Card titles, lead text |
 | xl | 24px | Subheads |
 | 2xl | 32px | Section headings |
-| 3xl | 44px | Page titles |
+| 3xl | 40-64px (fluid) | Page titles |
 
 Line height: 1.15 for headings, 1.6 for body.
 
 ## Spacing, radius, shadow
 
 - **Spacing** (4px base): 4, 8, 12, 16, 24, 32, 48, 72.
-- **Radius:** 6 (inputs), 12 (cards), 20 (large panels), pill (tags, buttons).
-- **Shadow:** `sm` for resting cards, `md` for hover. Both use a teal-tinted shadow, never pure black.
+- **Radius:** 6 (small), 16 (inputs, list items), 28 (cards, panels), pill (tags, buttons).
+- **Shadow:** `sm` for resting cards, `md` for hover. Both use a deep-teal-tinted shadow, never pure black.
 
 ## Voice and tone
 
@@ -50,9 +57,9 @@ Dry, specific, affectionate. Funny through understatement, never through volume.
 
 ## Component guidance
 
-- **Card:** white surface, 1px sand border, 12px radius, `sm` shadow. Whole card is one link.
-- **Tag:** pill, teal 100 background, uppercase 12px label.
+- **Card:** white surface, 2px sand border, 28px radius, `sm` shadow, sunset gradient stripe on top, lifts on hover. Whole card is one link.
+- **Tag:** pill, mango 100 background, teal 900 uppercase 12px label.
 - **Button:** hibiscus 600 fill, white text, pill radius.
-- **Search input:** white, sand border, 6px radius, always paired with a visible label.
+- **Search input:** white, sand border, 16px radius, always paired with a visible label.
 - **FAQ item:** native disclosure (`details`), card styling, muted answer text.
 - **Empty and not-found states:** plain sentence, one clear way back.

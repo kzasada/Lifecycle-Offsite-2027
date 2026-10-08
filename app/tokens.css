@@ -1,18 +1,23 @@
 /* Single source of styling truth. Mirrors docs/brand/design-tokens.json. */
 :root {
   /* color: palette */
-  --color-teal-900: #0b3c49;
-  --color-teal-700: #14606f;
-  --color-teal-100: #d7ecee;
-  --color-cream-50: #fbf5e9;
-  --color-sand-200: #f1e6cf;
-  --color-sand-400: #d9cdb3;
+  --color-teal-900: #034c5a;
+  --color-teal-700: #07707f;
+  --color-teal-500: #12b5bf;
+  --color-teal-100: #cdf3f1;
+  --color-cream-50: #fff8e7;
+  --color-sand-200: #ffe9b8;
+  --color-sand-400: #f2cf8a;
   --color-white: #ffffff;
-  --color-ink-900: #17262b;
-  --color-ink-600: #4f6168;
-  --color-hibiscus-600: #c0304b;
-  --color-hibiscus-700: #9e243b;
-  --color-hibiscus-100: #f8dde2;
+  --color-ink-900: #10292f;
+  --color-ink-600: #3f5a62;
+  --color-mango-400: #ffb627;
+  --color-mango-100: #ffe7a3;
+  --color-palm-700: #137a52;
+  --color-coral-500: #ff6f4f;
+  --color-hibiscus-600: #d81e5b;
+  --color-hibiscus-700: #b3124a;
+  --color-hibiscus-100: #ffd9e4;
 
   /* color: roles */
   --bg-page: var(--color-cream-50);
@@ -28,13 +33,17 @@
   --action-bg-hover: var(--color-hibiscus-700);
   --action-text: var(--color-white);
   --link: var(--color-teal-700);
-  --tag-bg: var(--color-teal-100);
+  --tag-bg: var(--color-mango-100);
   --tag-text: var(--color-teal-900);
   --focus-ring: var(--color-teal-700);
 
+  /* gradients */
+  --gradient-sunset: linear-gradient(90deg, var(--color-mango-400), var(--color-coral-500), var(--color-hibiscus-600));
+  --gradient-lagoon: linear-gradient(165deg, var(--color-teal-900) 0%, var(--color-teal-700) 45%, var(--color-teal-500) 100%);
+
   /* typography (families are set in app/fonts.ts) */
-  --font-heading: var(--font-fraunces), Georgia, "Times New Roman", serif;
-  --font-body: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-heading: var(--font-fredoka), "Trebuchet MS", system-ui, sans-serif;
+  --font-body: var(--font-nunito), system-ui, -apple-system, "Segoe UI", sans-serif;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -42,7 +51,7 @@
   --text-lg: 1.25rem;
   --text-xl: 1.5rem;
   --text-2xl: 2rem;
-  --text-3xl: 2.75rem;
+  --text-3xl: clamp(2.5rem, 6vw, 4rem);
   --leading-tight: 1.15;
   --leading-body: 1.6;
   --weight-regular: 400;
@@ -62,14 +71,14 @@
 
   /* radius */
   --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
   --radius-pill: 999px;
 
   /* shadow */
-  --shadow-color: rgb(11 60 73 / 14%);
+  --shadow-color: rgb(3 76 90 / 20%);
   --shadow-sm: 0 1px 2px var(--shadow-color);
-  --shadow-md: 0 6px 18px var(--shadow-color);
+  --shadow-md: 0 10px 24px var(--shadow-color);
 
   /* layout */
   --content-width: 68rem;

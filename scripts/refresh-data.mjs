@@ -53,7 +53,7 @@ const featured = [
 const faqs = [
   { title: "Who owns the sunscreen?", slug: "who-owns-the-sunscreen", answer: "Whoever brought it. This makes it a shared service with no roadmap.", order: 1, published: true },
   { title: "What is the dress code?", slug: "what-is-the-dress-code", answer: "Business casual, with an emphasis on casual and a minimum of one flower.", order: 2, published: true },
-  { title: "Will there be Wi-Fi?", slug: "will-there-be-wifi", answer: "At the pool, the lobby, and the pond. Coverage elsewhere is described as aspirational.", order: 3, published: true },
+  { title: "Will there be Wi-Fi?", slug: "will-there-be-wifi", answer: "At the pool, the lobby, and the pond, where a small golden goose has been asked to stop sitting on the router. Coverage elsewhere is described as aspirational.", order: 3, published: true },
   { title: "Do I need to open my laptop?", slug: "do-i-need-to-open-my-laptop", answer: "No. Please bring it anyway, so it can feel included.", order: 4, published: true },
   { title: "What should my out-of-office say?", slug: "what-should-my-out-of-office-say", answer: "\"Back Monday, fragrant.\" Edits are permitted, but fragrance is encouraged.", order: 5, published: true },
 ];

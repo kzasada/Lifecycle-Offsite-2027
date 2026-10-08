@@ -1,8 +1,9 @@
 .footer {
-  max-width: var(--content-width);
-  margin: var(--space-8) auto 0;
-  padding: var(--space-5);
-  border-top: 1px solid var(--border-subtle);
-  color: var(--text-muted);
+  margin: var(--space-8) 0 0;
+  padding: var(--space-6) max(var(--space-5), calc((100% - var(--content-width)) / 2 + var(--space-5)));
+  border-top: 5px solid transparent;
+  border-image: var(--gradient-sunset) 1;
+  background: var(--bg-inverse);
+  color: var(--color-teal-100);
   font-size: var(--text-sm);
 }

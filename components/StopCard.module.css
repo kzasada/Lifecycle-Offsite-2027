@@ -5,15 +5,26 @@
   gap: var(--space-3);
   padding: var(--space-5);
   background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease, transform 150ms ease;
+}
+
+/* Sunset stripe */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 8px;
+  background: var(--gradient-sunset);
 }
 
 .card:hover,
 .card:focus-within {
   box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
 }
 
 .meta {
@@ -37,7 +48,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
 }
 
 .desc {

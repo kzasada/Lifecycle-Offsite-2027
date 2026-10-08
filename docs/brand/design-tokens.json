@@ -1,21 +1,26 @@
 {
   "color": {
-    "teal-900": "#0B3C49",
-    "teal-700": "#14606F",
-    "teal-100": "#D7ECEE",
-    "cream-50": "#FBF5E9",
-    "sand-200": "#F1E6CF",
-    "sand-400": "#D9CDB3",
+    "teal-900": "#034C5A",
+    "teal-700": "#07707F",
+    "teal-500": "#12B5BF",
+    "teal-100": "#CDF3F1",
+    "cream-50": "#FFF8E7",
+    "sand-200": "#FFE9B8",
+    "sand-400": "#F2CF8A",
     "white": "#FFFFFF",
-    "ink-900": "#17262B",
-    "ink-600": "#4F6168",
-    "hibiscus-600": "#C0304B",
-    "hibiscus-700": "#9E243B",
-    "hibiscus-100": "#F8DDE2"
+    "ink-900": "#10292F",
+    "ink-600": "#3F5A62",
+    "mango-400": "#FFB627",
+    "mango-100": "#FFE7A3",
+    "palm-700": "#137A52",
+    "coral-500": "#FF6F4F",
+    "hibiscus-600": "#D81E5B",
+    "hibiscus-700": "#B3124A",
+    "hibiscus-100": "#FFD9E4"
   },
   "font": {
-    "heading": "Fraunces",
-    "body": "Inter"
+    "heading": "Fredoka",
+    "body": "Nunito"
   },
   "fontSize": {
     "xs": "12px",
@@ -24,7 +29,7 @@
     "lg": "20px",
     "xl": "24px",
     "2xl": "32px",
-    "3xl": "44px"
+    "3xl": "44px-64px (clamp)"
   },
   "spacing": {
     "1": "4px",
@@ -36,9 +41,18 @@
     "7": "48px",
     "8": "72px"
   },
-  "radius": { "sm": "6px", "md": "12px", "lg": "20px", "pill": "999px" },
+  "radius": {
+    "sm": "6px",
+    "md": "16px",
+    "lg": "28px",
+    "pill": "999px"
+  },
   "shadow": {
-    "sm": "0 1px 2px rgba(11, 60, 73, 0.14)",
-    "md": "0 6px 18px rgba(11, 60, 73, 0.14)"
+    "sm": "0 1px 2px rgba(3, 76, 90, 0.2)",
+    "md": "0 10px 24px rgba(3, 76, 90, 0.2)"
+  },
+  "gradient": {
+    "sunset": "linear-gradient(90deg, #FFB627, #FF6F4F, #D81E5B)",
+    "lagoon": "linear-gradient(165deg, #034C5A 0%, #07707F 45%, #12B5BF 100%)"
   }
 }

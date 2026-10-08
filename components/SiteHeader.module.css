@@ -1,5 +1,7 @@
 .header {
   background: var(--bg-inverse);
+  border-bottom: 5px solid transparent;
+  border-image: var(--gradient-sunset) 1;
   color: var(--text-inverse);
 }
 
@@ -22,6 +24,19 @@
   text-decoration: none;
 }
 
+/* Little sun */
+.brand::before {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: var(--space-2);
+  border-radius: 50%;
+  background: var(--color-mango-400);
+  box-shadow: 0 0 0 3px rgb(255 182 39 / 35%);
+  vertical-align: -0.05em;
+}
+
 .nav {
   display: flex;
   gap: var(--space-5);
@@ -34,5 +49,6 @@
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline wavy var(--color-mango-400);
+  text-underline-offset: 0.3em;
 }

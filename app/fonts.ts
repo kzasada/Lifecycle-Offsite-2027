@@ -1,13 +1,13 @@
-import { Fraunces, Inter } from "next/font/google";
+import { Fredoka, Nunito } from "next/font/google";
 
-export const fraunces = Fraunces({
+export const fredoka = Fredoka({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-fredoka",
   display: "swap",
 });
 
-export const inter = Inter({
+export const nunito = Nunito({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-nunito",
   display: "swap",
 });
