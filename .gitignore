@@ -20,3 +20,6 @@ next-env.d.ts
 *.tsbuildinfo
 npm-debug.log*
 .cache/
+
+# OpenNext Cloudflare build output
+.open-next/
