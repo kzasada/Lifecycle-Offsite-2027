@@ -1,0 +1,33 @@
+.main {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5) 0;
+}
+
+.title {
+  margin-bottom: var(--space-5);
+  font-size: var(--text-3xl);
+}
+
+.item {
+  margin-bottom: var(--space-3);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.question {
+  padding: var(--space-4) var(--space-5);
+  font-weight: var(--weight-semibold);
+  cursor: pointer;
+}
+
+.answer {
+  margin: 0;
+  padding: 0 var(--space-5) var(--space-4);
+  color: var(--text-muted);
+}
+
+.empty {
+  color: var(--text-muted);
+}

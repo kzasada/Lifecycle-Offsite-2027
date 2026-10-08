@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-10-08T13:54:12.763Z",
+  "stops": [
+    {
+      "slug": "arrival-and-welcome-series",
+      "order": 1,
+      "day": 1,
+      "time": "8:00 AM",
+      "name": "Arrival and Welcome Series",
+      "description": "Landing triggers the first message in a five-part welcome series, delivered in person by a man holding a sign. Open rates are expected to be high, as he is standing right there.",
+      "themes": [
+        "lifecycle"
+      ]
+    },
+    {
+      "slug": "hotel-check-in-and-segmentation",
+      "order": 2,
+      "day": 1,
+      "time": "10:00 AM",
+      "name": "Hotel Check-In and Segmentation",
+      "description": "Guests are segmented by room type, floor, and tolerance for ocean-view upsells. Expansion revenue begins at the minibar.",
+      "themes": [
+        "lifecycle",
+        "revenue"
+      ]
+    },
+    {
+      "slug": "lunch-on-the-lanai",
+      "order": 3,
+      "day": 1,
+      "time": "12:00 PM",
+      "name": "Lunch on the Lanai",
+      "description": "Seating has been arranged so the best view sits above the fold. Anyone placed below it may scroll.",
+      "themes": [
+        "websites"
+      ]
+    },
+    {
+      "slug": "lei-making-workshop",
+      "order": 4,
+      "day": 1,
+      "time": "2:00 PM",
+      "name": "Lei-Making Workshop",
+      "description": "Teams string plumeria and orchids into leis, a hands-on lesson in nurture. Like any onboarding drip, each lei is slow, fragrant, and prone to tangling.",
+      "themes": [
+        "flowers",
+        "lifecycle"
+      ]
+    },
+    {
+      "slug": "sunset-pipeline-review",
+      "order": 5,
+      "day": 1,
+      "time": "5:00 PM",
+      "name": "Sunset Pipeline Review",
+      "description": "The forecast will be reviewed at sunset, ideal lighting for any number that needs to look warm. Pipeline is measured in coconuts, and coverage is currently described as generous.",
+      "themes": [
+        "revenue"
+      ]
+    },
+    {
+      "slug": "wireframe-yoga",
+      "order": 6,
+      "day": 2,
+      "time": "7:30 AM",
+      "name": "Wireframe Yoga",
+      "description": "Participants hold poses drawn in low fidelity. Downward dog will be rendered in grayscale until approved.",
+      "themes": [
+        "websites"
+      ]
+    },
+    {
+      "slug": "snorkeling-and-net-revenue-retention",
+      "order": 7,
+      "day": 2,
+      "time": "9:30 AM",
+      "name": "Snorkeling and Net Revenue Retention",
+      "description": "Everyone is counted entering the water and again on exit. Anyone drifting toward open water will be classified as churn and gently re-engaged by a lifeguard.",
+      "themes": [
+        "revenue",
+        "lifecycle"
+      ]
+    },
+    {
+      "slug": "botanical-garden-tour",
+      "order": 8,
+      "day": 2,
+      "time": "12:00 PM",
+      "name": "Botanical Garden Tour",
+      "description": "A guide introduces the hibiscus, the bird of paradise, and a plumeria tree that blooms without a single nurture email. Questions are welcome, but the tree will not be taking any.",
+      "themes": [
+        "flowers",
+        "lifecycle"
+      ]
+    },
+    {
+      "slug": "shave-ice-a-b-test",
+      "order": 9,
+      "day": 2,
+      "time": "2:30 PM",
+      "name": "Shave Ice A/B Test",
+      "description": "Group A receives lime and Group B receives mango. Statistical significance is reached when someone says \"the orange one\" and nobody corrects them.",
+      "themes": [
+        "lifecycle"
+      ]
+    },
+    {
+      "slug": "publish-day-at-the-beach",
+      "order": 10,
+      "day": 2,
+      "time": "4:30 PM",
+      "name": "Publish Day at the Beach",
+      "description": "Teams build a sandcastle, publish it at low tide, and verify its breakpoints against the incoming wave. Rollback is automatic.",
+      "themes": [
+        "websites"
+      ]
+    },
+    {
+      "slug": "luau-and-quarterly-business-review",
+      "order": 11,
+      "day": 2,
+      "time": "7:00 PM",
+      "name": "Luau and Quarterly Business Review",
+      "description": "Dinner doubles as a quarterly review of the roast pig, which has been in the oven since the previous quarter. Slides are optional; napkins are not.",
+      "themes": [
+        "revenue"
+      ]
+    },
+    {
+      "slug": "farewell-brunch",
+      "order": 12,
+      "day": 3,
+      "time": "8:30 AM",
+      "name": "Farewell Brunch",
+      "description": "The buffet is organized like a sitemap: eggs to the left, pastries to the right, and a table of untouched melon that returns a 404.",
+      "themes": [
+        "websites"
+      ]
+    },
+    {
+      "slug": "waterfall-hike",
+      "order": 13,
+      "day": 3,
+      "time": "10:00 AM",
+      "name": "Waterfall Hike",
+      "description": "The trail loads slowly but rewards patience. Load times are measured in switchbacks, and the view is considered a strong above-average experience.",
+      "themes": [
+        "websites"
+      ]
+    },
+    {
+      "slug": "souvenir-shop-win-back-campaign",
+      "order": 14,
+      "day": 3,
+      "time": "12:00 PM",
+      "name": "Souvenir Shop Win-Back Campaign",
+      "description": "Anyone who abandoned a snack in their cart on Day 1 will receive a win-back offer: a second chance and a magnet.",
+      "themes": [
+        "lifecycle"
+      ]
+    },
+    {
+      "slug": "hibiscus-tea-and-annual-review",
+      "order": 15,
+      "day": 3,
+      "time": "2:00 PM",
+      "name": "Hibiscus Tea and Annual Review",
+      "description": "Annual recurring revenue will be discussed over hibiscus tea, in annual recurring pineapples. Please direct questions to the suggestion box, which is shaped like a lei.",
+      "themes": [
+        "revenue",
+        "flowers"
+      ]
+    },
+    {
+      "slug": "lei-exchange",
+      "order": 16,
+      "day": 3,
+      "time": "4:00 PM",
+      "name": "Lei Exchange",
+      "description": "Each attendee gives one lei and receives one, a perfectly balanced trade and the only forecast this week with no variance.",
+      "themes": [
+        "flowers",
+        "revenue"
+      ]
+    }
+  ]
+}

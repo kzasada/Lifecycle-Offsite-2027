@@ -1,0 +1,44 @@
+{
+  "color": {
+    "teal-900": "#0B3C49",
+    "teal-700": "#14606F",
+    "teal-100": "#D7ECEE",
+    "cream-50": "#FBF5E9",
+    "sand-200": "#F1E6CF",
+    "sand-400": "#D9CDB3",
+    "white": "#FFFFFF",
+    "ink-900": "#17262B",
+    "ink-600": "#4F6168",
+    "hibiscus-600": "#C0304B",
+    "hibiscus-700": "#9E243B",
+    "hibiscus-100": "#F8DDE2"
+  },
+  "font": {
+    "heading": "Fraunces",
+    "body": "Inter"
+  },
+  "fontSize": {
+    "xs": "12px",
+    "sm": "14px",
+    "base": "16px",
+    "lg": "20px",
+    "xl": "24px",
+    "2xl": "32px",
+    "3xl": "44px"
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "24px",
+    "6": "32px",
+    "7": "48px",
+    "8": "72px"
+  },
+  "radius": { "sm": "6px", "md": "12px", "lg": "20px", "pill": "999px" },
+  "shadow": {
+    "sm": "0 1px 2px rgba(11, 60, 73, 0.14)",
+    "md": "0 6px 18px rgba(11, 60, 73, 0.14)"
+  }
+}

@@ -1,0 +1,38 @@
+.header {
+  background: var(--bg-inverse);
+  color: var(--text-inverse);
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-5);
+}
+
+.brand {
+  color: var(--text-inverse);
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: var(--space-5);
+}
+
+.nav a {
+  color: var(--text-inverse);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
