@@ -47,7 +47,7 @@ Site content is fetched on the server only (`sanity/client.ts`): published persp
 
 Run before every Webflow Cloud deploy, and before pushing a deploy fix. `next build` alone does not exercise the adapter.
 
-1. Confirm the Next.js version is supported by Webflow Cloud (its docs say 15+ and don't mention 16).
+1. Confirm the Next.js version works on Webflow Cloud (its docs say 15+ and don't mention 16). `next` is pinned to exactly 16.3.8: Next 16.4.0 loads `preview-props.json` at runtime, which the OpenNext adapter doesn't handle and which returns a 500 on every route. Before upgrading Next, check the `@opennextjs/cloudflare` release notes for that fix.
 2. `npm run build` passes.
 3. The adapter build passes: `SKIP_WRANGLER_CONFIG_CHECK=yes npx opennextjs-cloudflare build`. This needs `open-next.config.ts` and a top-level `esbuild` dev dependency, both committed. `.open-next/` is build output and git-ignored.
 4. Env vars are set in Webflow Cloud, then redeploy: `NEXT_PUBLIC_SANITY_PROJECT_ID`, `NEXT_PUBLIC_SANITY_DATASET`, and `NEXT_PUBLIC_BASE_PATH` (leave empty at the domain root, never `/`).
