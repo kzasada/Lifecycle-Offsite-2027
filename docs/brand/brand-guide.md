@@ -67,4 +67,5 @@ Dry, specific, affectionate. Funny through understatement, never through volume.
 - **Section heading:** teal 900 Fredoka with a short solid sunset bar underneath. No wavy or dotted underlines: they read as spellcheck warnings.
 - **Hero ghost tabs:** a decorative browser tab strip above the title, with three struck-through tabs and one live "Offsite 2027" tab, for the "zero open tabs" joke. Decorative only, hidden from screen readers.
 - **Hawaiian shirt:** a small red shirt with cream hibiscus flowers beside the packing list heading. Use it once as a light touch, not as a repeated pattern.
+- **Page banner:** FAQ, stop and not-found pages open with a lagoon-gradient banner: white Fredoka title, a small sun in the corner and a wave edge into the page. Stop pages add an eyebrow with the day's colored dot. Body text on the banner must stay white or mango 100, and the gradient is darkened (teal 900 to teal 700 by about 60%) so text keeps at least 4.5:1 contrast.
 - **Empty and not-found states:** plain sentence, one clear way back.

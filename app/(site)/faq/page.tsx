@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageBanner from "@/components/PageBanner";
 import { getSiteContent } from "@/lib/content";
 import styles from "./page.module.css";
 
@@ -7,8 +8,9 @@ export const metadata: Metadata = { title: "FAQ" };
 export default async function FaqPage() {
   const { faqs } = await getSiteContent();
   return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>Frequently asked questions</h1>
+    <main>
+      <PageBanner title="Frequently asked questions" />
+      <div className={styles.body}>
       {faqs.length === 0 ? (
         <p className={styles.empty}>No questions yet. Check back after the next quarterly review.</p>
       ) : (
@@ -19,6 +21,7 @@ export default async function FaqPage() {
           </details>
         ))
       )}
+      </div>
     </main>
   );
 }

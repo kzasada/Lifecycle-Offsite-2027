@@ -38,9 +38,12 @@
   --tag-text: var(--color-teal-900);
   --focus-ring: var(--color-teal-700);
 
+  /* page-edge wave (fill matches --color-cream-50) */
+  --wave-edge: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60' preserveAspectRatio='none'%3E%3Cpath fill='%23fff8e7' d='M0 30 Q150 0 300 30 T600 30 T900 30 T1200 30 V60 H0Z'/%3E%3C/svg%3E");
+
   /* gradients */
   --gradient-sunset: linear-gradient(90deg, var(--color-mango-400), var(--color-coral-500), var(--color-hibiscus-600));
-  --gradient-lagoon: linear-gradient(165deg, var(--color-teal-900) 0%, var(--color-teal-700) 45%, var(--color-teal-500) 100%);
+  --gradient-lagoon: linear-gradient(165deg, var(--color-teal-900) 0%, var(--color-teal-700) 62%, var(--color-teal-500) 135%);
 
   /* typography (families are set in app/fonts.ts) */
   --font-heading: var(--font-fredoka), "Trebuchet MS", system-ui, sans-serif;

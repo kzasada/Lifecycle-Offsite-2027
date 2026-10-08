@@ -1,0 +1,73 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+  background: var(--gradient-lagoon);
+  color: var(--color-white);
+}
+
+/* Small sun */
+.banner::before {
+  content: "";
+  position: absolute;
+  top: -4rem;
+  right: -3rem;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--color-mango-100) 0 28%, var(--color-mango-400) 29% 62%, var(--color-coral-500) 63% 100%);
+  box-shadow: 0 0 0 1.5rem rgb(255 182 39 / 18%);
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px 0;
+  height: 2.5rem;
+  background: var(--wave-edge) center bottom / 100% 100% no-repeat;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5) 4.5rem;
+}
+
+.inner a {
+  color: var(--color-teal-100);
+  font-size: var(--text-sm);
+}
+
+.eyebrow {
+  --dot: var(--color-mango-400);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-5) 0 var(--space-2);
+  color: var(--color-mango-100);
+  font-weight: var(--weight-semibold);
+}
+
+.eyebrow[data-day="2"] {
+  --dot: var(--color-coral-500);
+}
+
+.eyebrow[data-day="3"] {
+  --dot: #4fd1a1;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--dot);
+}
+
+.title {
+  max-width: 18ch;
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-bold);
+  text-shadow: 0 2px 0 rgb(3 76 90 / 35%);
+}

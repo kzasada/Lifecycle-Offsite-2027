@@ -1,25 +1,30 @@
-.main {
+.body {
   max-width: var(--reading-width);
   margin: 0 auto;
-  padding: var(--space-6) var(--space-5) 0;
+  padding: var(--space-5) var(--space-5) 0;
 }
 
-.back {
-  font-size: var(--text-sm);
+.card {
+  position: relative;
+  overflow: hidden;
+  padding: var(--space-6) var(--space-5) var(--space-5);
+  background: var(--bg-card);
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
 }
 
-.meta {
-  margin: var(--space-5) 0 var(--space-2);
-  color: var(--text-accent);
-  font-weight: var(--weight-semibold);
-}
-
-.title {
-  font-size: var(--text-3xl);
+/* Sunset stripe */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 8px;
+  background: var(--gradient-sunset);
 }
 
 .desc {
-  margin: var(--space-5) 0;
+  margin: 0 0 var(--space-5);
   font-size: var(--text-lg);
 }
 
@@ -31,9 +36,21 @@
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: var(--space-4);
-  margin-top: var(--space-7);
-  padding-top: var(--space-5);
-  border-top: 1px solid var(--border-subtle);
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.nav a {
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: var(--color-mango-100);
 }
