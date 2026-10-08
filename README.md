@@ -43,6 +43,17 @@ Site content is fetched on the server only (`sanity/client.ts`): published persp
 - No ISR, no `use cache`, no `dynamicParams = false`. Images are `unoptimized` because Webflow Cloud doesn't resize external images.
 - The Studio loads client-only to keep the server bundle under 10 MB.
 
+### Deploy checklist
+
+Run before every Webflow Cloud deploy, and before pushing a deploy fix. `next build` alone does not exercise the adapter.
+
+1. Confirm the Next.js version is supported by Webflow Cloud (its docs say 15+ and don't mention 16).
+2. `npm run build` passes.
+3. The adapter build passes: `SKIP_WRANGLER_CONFIG_CHECK=yes npx opennextjs-cloudflare build`. This needs `open-next.config.ts` and a top-level `esbuild` dev dependency, both committed. `.open-next/` is build output and git-ignored.
+4. Env vars are set in Webflow Cloud, then redeploy: `NEXT_PUBLIC_SANITY_PROJECT_ID`, `NEXT_PUBLIC_SANITY_DATASET`, and `NEXT_PUBLIC_BASE_PATH` (leave empty at the domain root, never `/`).
+5. After the first deploy, add the deployed URL as a Sanity CORS origin with credentials on.
+6. Verify `/`, `/faq` and `/studio` return 200, then edit content in the Studio and confirm it appears on the live site.
+
 ## File map
 
 | Path | Purpose |
